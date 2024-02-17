@@ -1,0 +1,12 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Hello, World!"
+}
+
+// Document Viewport
+viewport {
+    text {
+        label : "Hello, World!"
+    }
+}

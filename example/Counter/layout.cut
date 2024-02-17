@@ -1,0 +1,26 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Counter Example",
+
+    require : [
+        "script.js"
+    ]
+}
+
+// Document Viewport
+viewport {
+    counter (count-text) {
+        label : count
+    }
+
+    button (green-btn) {
+        click : onIncrease(),
+        label : "+1"
+    }
+
+    button (red-btn) {
+        click : onDecrease(),
+        label : "-1"
+    }
+}
