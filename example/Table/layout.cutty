@@ -1,0 +1,32 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Table Module Example"
+}
+
+// Document Viewport
+viewport {
+    table {
+        content : [
+            [profile1, profile2],
+            ["Profile 1", "Profile 2"]
+        ]
+    }
+}
+
+// Document Module
+profile1 {
+    image {
+        width : 360px,
+        heigth : 360px,
+        src : "./profile1.png"
+    }
+}
+
+profile2 {
+    image {
+        width : 360px,
+        heigth : 360px,
+        src : "./profile2.png"
+    }
+}

@@ -1,0 +1,16 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Table Example"
+}
+
+// Document Viewport
+viewport {
+    table {
+        header : ["Name", "Year"],
+        content : [
+            ["Current year", "2024"],
+            ["Previous year", "2023"]
+        ]
+    }
+}
