@@ -1,0 +1,32 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Counter Module Example",
+
+    require : [
+        "script.js"
+    ]
+}
+
+// Document Viewport
+viewport {
+    <counter>
+    <count-button>
+}
+
+// Document Module
+counter {
+    content : count
+}
+
+count-button {
+    button {
+        click : onIncrease(),
+        content : "+1"
+    }
+
+    button {
+        click : onDecrease(),
+        content : "-1"
+    }
+}

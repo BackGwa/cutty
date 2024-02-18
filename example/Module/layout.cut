@@ -1,0 +1,19 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Module Example",
+}
+
+// Document Viewport
+viewport {
+    <HelloWorld>                    // Type 1
+
+    greeting {
+        content : <HelloWorld>      // Type 2
+    }
+}
+
+// Document Module
+HelloWorld {
+    content : "HelloWorld"
+}

@@ -1,0 +1,15 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Function Module Example",
+}
+
+// Document Viewport
+viewport {
+    <greeting ["World!"]>
+}
+
+// Document Module
+greeting [name] {
+    content : "Hello, " + name
+}
