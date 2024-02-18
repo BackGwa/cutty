@@ -1,0 +1,16 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Metadata Example",     // Website Title
+    description : "Metadata Example",       // Website description
+    icon : "icon1024.png"                   // Favicon & Website Icon
+
+    // Script & Stylesheet File Link
+    require : [
+        "script.js",
+        "style.css"
+    ]
+}
+
+// Document Viewport
+viewport {}
