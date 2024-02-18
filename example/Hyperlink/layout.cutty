@@ -1,0 +1,13 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Hyperlink Example"
+}
+
+// Document Viewport
+viewport {
+    text {
+        content : "Go Link",
+        href : "https://google.com/"
+    }
+}
