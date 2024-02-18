@@ -1,0 +1,24 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Update Example"
+}
+
+// Document Viewport
+viewport {
+    time {
+        content : date,
+        update : date_update
+    }
+}
+
+// Document Script
+script {
+    let date;
+
+    function date_update() {
+        date = new Date();
+    }
+
+    setInterval(date_update, 1000);
+}
