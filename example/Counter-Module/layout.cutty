@@ -13,6 +13,7 @@ viewport {
 // Document Module
 counter {
     content : count
+    update : [onIncrease, onDecrease]
 }
 
 count-button {
