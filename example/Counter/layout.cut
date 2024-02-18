@@ -11,7 +11,8 @@ metadata {
 // Document Viewport
 viewport {
     counter {
-        content : count
+        content : count,
+        update : [onIncrease, onDecrease]
     }
 
     button {
@@ -22,5 +23,18 @@ viewport {
     button {
         click : onDecrease(),
         content : "-1"
+    }
+}
+
+// Document Script
+script {
+    let count = 0;
+
+    function onIncrease() {
+        count++;
+    }
+
+    function onDecrease() {
+        count--;
     }
 }

@@ -30,3 +30,16 @@ count-button {
         content : "-1"
     }
 }
+
+// Document Script
+script {
+    let count = 0;
+
+    function onIncrease() {
+        count++;
+    }
+
+    function onDecrease() {
+        count--;
+    }
+}
