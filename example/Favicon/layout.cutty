@@ -1,9 +1,0 @@
-
-// Document Metadata
-metadata {
-    title : "Cutty - Favicon Example",
-    icon : "icon1024.png"
-}
-
-// Document Viewport
-viewport {}
