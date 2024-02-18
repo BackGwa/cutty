@@ -7,10 +7,10 @@ metadata {
 // Document Viewport
 viewport {
     button {
+        content : "Button",
         click : event("Click!"),
         hover : event("Hover!"),
-        blur : event("Blur!"),
-        content : "Button"
+        blur : event("Blur!")
     }
 
     input {
