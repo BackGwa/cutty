@@ -1,0 +1,22 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Event Example",
+}
+
+// Document Viewport
+viewport {
+    button {
+        click : event("Click"),
+        hover : event("Hover"),
+        blur : event("Blur"),
+        content : "BUTTON"
+    }
+}
+
+// Document Script
+script {
+    function event(event_type) {
+        console.log("Event : " + event_type);
+    }
+}
