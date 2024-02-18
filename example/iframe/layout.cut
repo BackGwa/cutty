@@ -1,0 +1,14 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - iframe Example"
+}
+
+// Document Viewport
+viewport {
+    iframe {
+        width : 640px,
+        heigth : 480px,
+        src : "https://google.com/"
+    }
+}
