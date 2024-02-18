@@ -1,11 +1,7 @@
 
 // Document Metadata
 metadata {
-    title : "Cutty - Counter Example",
-
-    require : [
-        "script.js"
-    ]
+    title : "Cutty - Counter Example"
 }
 
 // Document Viewport
