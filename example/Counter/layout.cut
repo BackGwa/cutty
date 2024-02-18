@@ -10,17 +10,17 @@ metadata {
 
 // Document Viewport
 viewport {
-    counter (count-text) {
-        label : count
+    counter {
+        content : count
     }
 
-    button (green-btn) {
+    button {
         click : onIncrease(),
-        label : "+1"
+        content : "+1"
     }
 
-    button (red-btn) {
+    button {
         click : onDecrease(),
-        label : "-1"
+        content : "-1"
     }
 }

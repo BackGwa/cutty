@@ -6,7 +6,14 @@ metadata {
 
 // Document Viewport
 viewport {
-    text {
-        label : "Hello, World!"
+    text (center-text) {
+        content : "Hello, World!"
+    }
+}
+
+// Document Stylesheet 
+style {
+    center-text {
+        text-align: center;
     }
 }
