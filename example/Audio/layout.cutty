@@ -1,0 +1,14 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Audio Example"
+}
+
+// Document Viewport
+viewport {
+    audio {
+        src : "test.mp3",
+        autoplay : false,
+        volume : 1.0
+    }
+}
