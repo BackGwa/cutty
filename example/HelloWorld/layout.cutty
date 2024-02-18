@@ -13,7 +13,7 @@ viewport {
 
 // Document Stylesheet 
 style {
-    center-text {
+    .center-text {
         text-align: center;
     }
 }
