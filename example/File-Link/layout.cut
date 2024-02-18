@@ -1,0 +1,13 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - File Link Example",
+
+    require : [
+        "script.js",
+        "style.css"
+    ]
+}
+
+// Document Viewport
+viewport {}
