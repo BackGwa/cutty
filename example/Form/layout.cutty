@@ -1,0 +1,27 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Form Example"
+}
+
+// Document Viewport
+viewport {
+    form {
+        method : GET,
+        action : "/",
+        content : form-layout
+    }
+}
+
+// Document Module
+form-layout {
+    input {
+        type : text,
+        hint : "Input text"
+    }
+
+    input {
+        type : submit,
+        content : "Submit"
+    }
+}
