@@ -1,0 +1,10 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Id Example"
+}
+
+// Document Viewport
+viewport {
+    element [id] {}
+}
