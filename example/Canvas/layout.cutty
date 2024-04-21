@@ -1,0 +1,40 @@
+
+// Document Metadata
+metadata {
+    title : "Cutty - Canvas Example"
+}
+
+// Document Viewport
+viewport {
+    // inline canvas
+    canvas {
+        width : 500px,
+        height : 500px, 
+        inline : {
+            fillStyle : (255, 0, 0),
+            fillRect : (10, 100),
+            fillStyle : (0, 0, 255),
+            fillRect : (110, 110, 100, 100)
+        }
+    }
+
+    // javascript canvas
+    canvas [canvas] {
+        width : 500px,
+        height : 500px
+    }
+}
+
+// Document Script
+script {
+    window.onload = function() {
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+
+        ctx.fillStyle = "rgb(255 0 0)";
+        ctx.fillRect(10, 10, 100, 100);
+
+        ctx.fillStyle = "rgb(0 0 255)";
+        ctx.fillRect(110, 110, 100, 100);
+    }
+}
